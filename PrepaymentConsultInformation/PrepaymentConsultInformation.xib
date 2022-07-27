@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrepaymentConsultInformation" customModule="PrepaymentConsultInformation" customModuleProvider="target">
+            <connections>
+                <outlet property="themeSwitch" destination="AyF-M7-g9n" id="gd6-9p-AKb"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="theme_main_text" destination="CWM-jV-BnB" collectionClass="NSMutableArray" id="prx-Nf-ggh"/>
+                <outletCollection property="theme_main_text" destination="zc4-zs-cRk" collectionClass="NSMutableArray" id="VNq-qF-kdn"/>
+                <outletCollection property="theme_main_text" destination="wb8-wJ-wzW" collectionClass="NSMutableArray" id="Kld-mZ-kpm"/>
+                <outletCollection property="theme_main_text" destination="K5g-Og-wpv" collectionClass="NSMutableArray" id="LBL-rD-f7V"/>
+                <outletCollection property="theme_main_text" destination="zvM-CY-34Q" collectionClass="NSMutableArray" id="yf5-Dg-R1D"/>
+                <outletCollection property="theme_main_text" destination="Ud4-cC-gTP" collectionClass="NSMutableArray" id="kXg-T8-9gg"/>
+                <outletCollection property="theme_main_text" destination="LdX-lf-0zE" collectionClass="NSMutableArray" id="F5m-U7-6fB"/>
+                <outletCollection property="theme_main_text" destination="7Ze-oJ-BPN" collectionClass="NSMutableArray" id="7Ff-k2-A21"/>
+                <outletCollection property="theme_main_text" destination="nEf-Qo-2Tg" collectionClass="NSMutableArray" id="6C9-xi-6gw"/>
+                <outletCollection property="theme_main_text" destination="fNe-py-zcu" collectionClass="NSMutableArray" id="GPb-Ly-7Lr"/>
+                <outletCollection property="theme_main_text" destination="a7A-rc-2vP" collectionClass="NSMutableArray" id="OLC-SU-HLU"/>
+                <outletCollection property="theme_main_text" destination="dBq-GW-X69" collectionClass="NSMutableArray" id="PFV-RR-grf"/>
+                <outletCollection property="theme_main_text" destination="vaW-f3-Dj4" collectionClass="NSMutableArray" id="EIv-Gh-cmU"/>
+                <outletCollection property="theme_main_text" destination="WNe-de-bKT" collectionClass="NSMutableArray" id="ffd-IZ-PQj"/>
+                <outletCollection property="theme_main_text" destination="InT-B7-fFx" collectionClass="NSMutableArray" id="QLk-vo-pqU"/>
+                <outletCollection property="theme_sub_text" destination="88n-AZ-ssc" collectionClass="NSMutableArray" id="yIE-a3-9Ue"/>
+                <outletCollection property="theme_sub_text" destination="eSo-wz-9fz" collectionClass="NSMutableArray" id="oIx-jX-u4f"/>
+                <outletCollection property="theme_main_background" destination="XM8-IH-Ldd" collectionClass="NSMutableArray" id="wzI-6X-pXd"/>
+                <outletCollection property="theme_main_background" destination="PAu-kD-5bt" collectionClass="NSMutableArray" id="mpM-tZ-RaA"/>
+                <outletCollection property="theme_sub_background" destination="KOi-R4-JfC" collectionClass="NSMutableArray" id="OEr-JV-RTC"/>
+                <outletCollection property="theme_sub_background" destination="6Ri-jy-wEq" collectionClass="NSMutableArray" id="3ho-94-qpo"/>
+                <outletCollection property="theme_sub_background" destination="jjh-ih-4VI" collectionClass="NSMutableArray" id="32X-Up-G59"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="1528"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PAu-kD-5bt">
+                    <rect key="frame" x="0.0" y="44" width="414" height="0.0"/>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                </view>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Tpf-vT-1uH">
+                    <rect key="frame" x="0.0" y="100" width="414" height="1428"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XM8-IH-Ldd">
+                            <rect key="frame" x="0.0" y="0.0" width="414" height="1459.5"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="DbL-yb-G0R">
+                                    <rect key="frame" x="24" y="40" width="366" height="1239.5"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KOi-R4-JfC">
+                                            <rect key="frame" x="0.0" y="0.0" width="366" height="720"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="선불 상담은 어떻게 이용하나요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CWM-jV-BnB">
+                                                    <rect key="frame" x="24" y="24" width="200" height="524"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bha-sc-aGp">
+                                                    <rect key="frame" x="24" y="568" width="18" height="18"/>
+                                                    <color key="backgroundColor" red="0.12156862745098039" green="0.12549019607843137" blue="0.14117647058823529" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="18" id="UnW-ku-CgF"/>
+                                                        <constraint firstAttribute="height" constant="18" id="X48-F9-TC6"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="1">
+                                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="10"/>
+                                                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상담사의 상담 상태와 고유번호를 확인해요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc4-zs-cRk">
+                                                    <rect key="frame" x="48" y="568" width="294" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gZ-3E-k5Y">
+                                                    <rect key="frame" x="24" y="598" width="18" height="18"/>
+                                                    <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="4M5-m8-AJ8"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="18" id="Iiz-za-gJM"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="UAt-Zy-CTu"/>
+                                                        <constraint firstAttribute="width" constant="18" id="bYB-aF-pdi"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="2">
+                                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="10"/>
+                                                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="보유 코인이 부족하다면 코인을 충전해요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wb8-wJ-wzW">
+                                                    <rect key="frame" x="48" y="598" width="294" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YmD-29-iUQ">
+                                                    <rect key="frame" x="24" y="628" width="18" height="18"/>
+                                                    <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="5g8-ZS-atq"/>
+                                                        <constraint firstAttribute="width" constant="18" id="8pc-C0-hOE"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="18" id="8va-0g-cDt"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="FCC-N2-MTu"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="3">
+                                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="10"/>
+                                                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="'선불 상담하기' 버튼을 통해 전화를 걸어요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5g-Og-wpv">
+                                                    <rect key="frame" x="48" y="628" width="294" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dEu-qJ-77v">
+                                                    <rect key="frame" x="24" y="658" width="18" height="18"/>
+                                                    <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="jlx-Qg-EUR"/>
+                                                        <constraint firstAttribute="width" constant="18" id="kSY-0r-oRY"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="18" id="l4e-g5-PXC"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="wdh-3f-AOs"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="4">
+                                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="10"/>
+                                                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="안내에 따라 4번 + 고유번호 세자리를 누른 후, 상담서비스를 이용해요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zvM-CY-34Q">
+                                                    <rect key="frame" x="48" y="658" width="294" height="31.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="CWM-jV-BnB" firstAttribute="top" secondItem="KOi-R4-JfC" secondAttribute="top" constant="24" id="0cl-ah-YwM"/>
+                                                <constraint firstItem="Bha-sc-aGp" firstAttribute="leading" secondItem="CWM-jV-BnB" secondAttribute="leading" id="2YE-xc-HIh"/>
+                                                <constraint firstItem="wb8-wJ-wzW" firstAttribute="leading" secondItem="5gZ-3E-k5Y" secondAttribute="trailing" constant="6" id="7K4-hz-CgK"/>
+                                                <constraint firstItem="5gZ-3E-k5Y" firstAttribute="leading" secondItem="Bha-sc-aGp" secondAttribute="leading" id="7KY-MH-8mn"/>
+                                                <constraint firstItem="zvM-CY-34Q" firstAttribute="leading" secondItem="dEu-qJ-77v" secondAttribute="trailing" constant="6" id="80h-lh-OeX"/>
+                                                <constraint firstItem="YmD-29-iUQ" firstAttribute="leading" secondItem="5gZ-3E-k5Y" secondAttribute="leading" id="9nS-kG-uTR"/>
+                                                <constraint firstItem="5gZ-3E-k5Y" firstAttribute="top" secondItem="Bha-sc-aGp" secondAttribute="bottom" constant="12" id="Dbn-Qo-rnf"/>
+                                                <constraint firstAttribute="bottom" secondItem="dEu-qJ-77v" secondAttribute="bottom" constant="44" id="EGg-eY-Dpf"/>
+                                                <constraint firstItem="zvM-CY-34Q" firstAttribute="top" secondItem="dEu-qJ-77v" secondAttribute="top" id="Gre-jm-xYK"/>
+                                                <constraint firstAttribute="trailing" secondItem="zvM-CY-34Q" secondAttribute="trailing" constant="24" id="KfG-9I-idQ"/>
+                                                <constraint firstItem="zc4-zs-cRk" firstAttribute="top" secondItem="Bha-sc-aGp" secondAttribute="top" id="MfH-5J-P3y"/>
+                                                <constraint firstItem="dEu-qJ-77v" firstAttribute="leading" secondItem="YmD-29-iUQ" secondAttribute="leading" id="Q9I-DX-15j"/>
+                                                <constraint firstItem="K5g-Og-wpv" firstAttribute="top" secondItem="YmD-29-iUQ" secondAttribute="top" id="RWY-oF-ULV"/>
+                                                <constraint firstItem="dEu-qJ-77v" firstAttribute="top" secondItem="YmD-29-iUQ" secondAttribute="bottom" constant="12" id="ZNM-xB-AGR"/>
+                                                <constraint firstAttribute="trailing" secondItem="wb8-wJ-wzW" secondAttribute="trailing" constant="24" id="aF0-Xy-Tj3"/>
+                                                <constraint firstItem="YmD-29-iUQ" firstAttribute="top" secondItem="5gZ-3E-k5Y" secondAttribute="bottom" constant="12" id="aX5-7W-OXm"/>
+                                                <constraint firstItem="CWM-jV-BnB" firstAttribute="leading" secondItem="KOi-R4-JfC" secondAttribute="leading" constant="24" id="faW-Yf-zLY"/>
+                                                <constraint firstAttribute="trailing" secondItem="zc4-zs-cRk" secondAttribute="trailing" constant="24" id="gdr-ac-Ldj"/>
+                                                <constraint firstItem="wb8-wJ-wzW" firstAttribute="top" secondItem="5gZ-3E-k5Y" secondAttribute="top" id="ji0-FO-B6S"/>
+                                                <constraint firstItem="K5g-Og-wpv" firstAttribute="leading" secondItem="YmD-29-iUQ" secondAttribute="trailing" constant="6" id="khQ-D3-EkB"/>
+                                                <constraint firstAttribute="trailing" secondItem="K5g-Og-wpv" secondAttribute="trailing" constant="24" id="l5f-Q0-FEh"/>
+                                                <constraint firstItem="Bha-sc-aGp" firstAttribute="top" secondItem="CWM-jV-BnB" secondAttribute="bottom" constant="20" id="zBy-aQ-5ui"/>
+                                                <constraint firstItem="zc4-zs-cRk" firstAttribute="leading" secondItem="Bha-sc-aGp" secondAttribute="trailing" constant="6" id="zRm-ZN-3hV"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="16"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Ri-jy-wEq">
+                                            <rect key="frame" x="0.0" y="744" width="366" height="244.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="후불 상담은 어떻게 이용하나요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ud4-cC-gTP">
+                                                    <rect key="frame" x="24" y="24" width="200" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nDz-Aa-nFY">
+                                                    <rect key="frame" x="24" y="63.5" width="18" height="18"/>
+                                                    <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="18" id="H7a-V9-D1y"/>
+                                                        <constraint firstAttribute="height" constant="18" id="NkM-NB-fuf"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="1">
+                                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="10"/>
+                                                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상담사의 상담 상태와 고유번호를 확인해요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LdX-lf-0zE">
+                                                    <rect key="frame" x="48" y="63.5" width="294" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wq4-Ed-s9x">
+                                                    <rect key="frame" x="24" y="93.5" width="18" height="18"/>
+                                                    <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="Bt5-3y-flr"/>
+                                                        <constraint firstAttribute="width" constant="18" id="H3i-nh-O2s"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="18" id="IAN-V9-beu"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="dtu-i0-4ey"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="2">
+                                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="10"/>
+                                                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="'후불 상담하기' 버튼을 통해 전화를 걸어요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Ze-oJ-BPN">
+                                                    <rect key="frame" x="48" y="93.5" width="294" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hkw-88-DKY">
+                                                    <rect key="frame" x="24" y="123.5" width="18" height="18"/>
+                                                    <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="7EF-aS-3Rf"/>
+                                                        <constraint firstAttribute="width" constant="18" id="GNV-Pu-Gqu"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="18" id="dwP-Gd-8jN"/>
+                                                        <constraint firstAttribute="height" constant="18" id="n3g-Nk-Wdt"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="3">
+                                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="10"/>
+                                                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="안내에 따라 4번 + 고유번호 세자리를 누른 후, 상담 서비스를 이용해요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nEf-Qo-2Tg">
+                                                    <rect key="frame" x="48" y="123.5" width="294" height="31.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notice" translatesAutoresizingMaskIntoConstraints="NO" id="77U-Rv-2aQ">
+                                                    <rect key="frame" x="24" y="184.5" width="16" height="16"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="16" id="GNz-1H-ZA2"/>
+                                                        <constraint firstAttribute="height" constant="16" id="bZa-cj-6WT"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="후불 상담료는 다음달 전화 요금과 합산하여 청구되어요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WNe-de-bKT">
+                                                    <rect key="frame" x="49" y="184.5" width="293" height="13.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30초당 1,300원 (부가세 별도)" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88n-AZ-ssc">
+                                                    <rect key="frame" x="49" y="207" width="293" height="13.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                    <color key="textColor" red="0.50588235294117645" green="0.5490196078431373" blue="0.60392156862745094" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="nEf-Qo-2Tg" secondAttribute="trailing" constant="24" id="9Iy-es-E2p"/>
+                                                <constraint firstItem="88n-AZ-ssc" firstAttribute="leading" secondItem="WNe-de-bKT" secondAttribute="leading" id="9WZ-yH-ZDO"/>
+                                                <constraint firstItem="88n-AZ-ssc" firstAttribute="top" secondItem="WNe-de-bKT" secondAttribute="bottom" constant="9" id="GA4-3u-ppa"/>
+                                                <constraint firstItem="nDz-Aa-nFY" firstAttribute="leading" secondItem="Ud4-cC-gTP" secondAttribute="leading" id="KRm-ik-t72"/>
+                                                <constraint firstItem="nDz-Aa-nFY" firstAttribute="top" secondItem="Ud4-cC-gTP" secondAttribute="bottom" constant="20" id="LIf-PH-Y84"/>
+                                                <constraint firstItem="7Ze-oJ-BPN" firstAttribute="leading" secondItem="wq4-Ed-s9x" secondAttribute="trailing" constant="6" id="N1A-vZ-Al6"/>
+                                                <constraint firstItem="WNe-de-bKT" firstAttribute="top" secondItem="77U-Rv-2aQ" secondAttribute="top" id="RMK-uF-OxV"/>
+                                                <constraint firstAttribute="trailing" secondItem="LdX-lf-0zE" secondAttribute="trailing" constant="24" id="SJ4-N5-Wde"/>
+                                                <constraint firstItem="88n-AZ-ssc" firstAttribute="trailing" secondItem="WNe-de-bKT" secondAttribute="trailing" id="UkV-8b-U70"/>
+                                                <constraint firstItem="LdX-lf-0zE" firstAttribute="top" secondItem="nDz-Aa-nFY" secondAttribute="top" id="YcZ-k9-pjH"/>
+                                                <constraint firstItem="WNe-de-bKT" firstAttribute="leading" secondItem="77U-Rv-2aQ" secondAttribute="trailing" constant="9" id="aKJ-Ja-Xw8"/>
+                                                <constraint firstItem="77U-Rv-2aQ" firstAttribute="leading" secondItem="hkw-88-DKY" secondAttribute="leading" id="bdR-DN-QsC"/>
+                                                <constraint firstItem="nEf-Qo-2Tg" firstAttribute="leading" secondItem="hkw-88-DKY" secondAttribute="trailing" constant="6" id="eMg-Db-ePh"/>
+                                                <constraint firstItem="77U-Rv-2aQ" firstAttribute="top" secondItem="hkw-88-DKY" secondAttribute="bottom" constant="43" id="eRE-rr-Wmv"/>
+                                                <constraint firstItem="hkw-88-DKY" firstAttribute="top" secondItem="wq4-Ed-s9x" secondAttribute="bottom" constant="12" id="eSI-A2-ukS"/>
+                                                <constraint firstItem="wq4-Ed-s9x" firstAttribute="top" secondItem="nDz-Aa-nFY" secondAttribute="bottom" constant="12" id="fqo-kK-EYi"/>
+                                                <constraint firstItem="hkw-88-DKY" firstAttribute="leading" secondItem="wq4-Ed-s9x" secondAttribute="leading" id="gY6-wq-LEZ"/>
+                                                <constraint firstAttribute="bottom" secondItem="88n-AZ-ssc" secondAttribute="bottom" constant="24" id="hGK-lw-aYJ"/>
+                                                <constraint firstItem="Ud4-cC-gTP" firstAttribute="top" secondItem="6Ri-jy-wEq" secondAttribute="top" constant="24" id="hJh-GV-18t"/>
+                                                <constraint firstItem="nEf-Qo-2Tg" firstAttribute="top" secondItem="hkw-88-DKY" secondAttribute="top" id="oF7-7i-l1P"/>
+                                                <constraint firstItem="7Ze-oJ-BPN" firstAttribute="top" secondItem="wq4-Ed-s9x" secondAttribute="top" id="ssM-R6-pho"/>
+                                                <constraint firstItem="Ud4-cC-gTP" firstAttribute="leading" secondItem="6Ri-jy-wEq" secondAttribute="leading" constant="24" id="tpY-b8-5qh"/>
+                                                <constraint firstItem="wq4-Ed-s9x" firstAttribute="leading" secondItem="nDz-Aa-nFY" secondAttribute="leading" id="vpD-tU-2hh"/>
+                                                <constraint firstItem="LdX-lf-0zE" firstAttribute="leading" secondItem="nDz-Aa-nFY" secondAttribute="trailing" constant="6" id="wXs-Mu-dB3"/>
+                                                <constraint firstAttribute="trailing" secondItem="7Ze-oJ-BPN" secondAttribute="trailing" constant="24" id="wbr-dU-BXN"/>
+                                                <constraint firstItem="WNe-de-bKT" firstAttribute="trailing" secondItem="nEf-Qo-2Tg" secondAttribute="trailing" id="xr2-ku-3EA"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="16"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jjh-ih-4VI">
+                                            <rect key="frame" x="0.0" y="1012.5" width="366" height="227"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="부과되는 요금이 부담스러우신가요?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fNe-py-zcu">
+                                                    <rect key="frame" x="24" y="24" width="224" height="83.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="회원가입 후, 선불상담 서비스를 이용해 보세요." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a7A-rc-2vP">
+                                                    <rect key="frame" x="24" y="113.5" width="293" height="19.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rux-vb-0u3">
+                                                    <rect key="frame" x="24" y="155" width="18" height="18"/>
+                                                    <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="1bB-ee-g6q"/>
+                                                        <constraint firstAttribute="width" constant="18" id="6zC-gw-Bqe"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="1">
+                                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="10"/>
+                                                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="후불대비 최대 45%의 할인혜택" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dBq-GW-X69">
+                                                    <rect key="frame" x="48" y="155" width="294" height="16"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7xo-Wj-fNe">
+                                                    <rect key="frame" x="24" y="185" width="18" height="18"/>
+                                                    <color key="backgroundColor" red="0.1215686275" green="0.12549019610000001" blue="0.14117647059999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="18" id="KLR-JO-4QZ"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="18" id="Rbq-bF-GgN"/>
+                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="18" id="puN-Po-JFk"/>
+                                                        <constraint firstAttribute="width" constant="18" id="uks-A4-aw1"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="plain" title="2">
+                                                        <fontDescription key="titleFontDescription" type="boldSystem" pointSize="10"/>
+                                                        <color key="baseForegroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </buttonConfiguration>
+                                                </button>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상담 할인 쿠폰과 보너스 코인을 지급해드려요!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vaW-f3-Dj4">
+                                                    <rect key="frame" x="48" y="185" width="294" height="18"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="a7A-rc-2vP" firstAttribute="top" secondItem="fNe-py-zcu" secondAttribute="bottom" constant="6" id="0EB-nA-trS"/>
+                                                <constraint firstItem="rux-vb-0u3" firstAttribute="top" secondItem="a7A-rc-2vP" secondAttribute="bottom" constant="22" id="3Jv-2C-jzB"/>
+                                                <constraint firstAttribute="trailing" secondItem="vaW-f3-Dj4" secondAttribute="trailing" constant="24" id="5LP-SI-dnX"/>
+                                                <constraint firstItem="a7A-rc-2vP" firstAttribute="leading" secondItem="fNe-py-zcu" secondAttribute="leading" id="5kw-UE-S4Y"/>
+                                                <constraint firstItem="rux-vb-0u3" firstAttribute="leading" secondItem="fNe-py-zcu" secondAttribute="leading" id="Boc-za-Qw9"/>
+                                                <constraint firstItem="dBq-GW-X69" firstAttribute="top" secondItem="rux-vb-0u3" secondAttribute="top" id="GA0-FU-WyI"/>
+                                                <constraint firstItem="7xo-Wj-fNe" firstAttribute="leading" secondItem="rux-vb-0u3" secondAttribute="leading" id="HFv-G5-5kb"/>
+                                                <constraint firstItem="vaW-f3-Dj4" firstAttribute="leading" secondItem="7xo-Wj-fNe" secondAttribute="trailing" constant="6" id="M8D-rU-B0h"/>
+                                                <constraint firstAttribute="bottom" secondItem="vaW-f3-Dj4" secondAttribute="bottom" constant="24" id="NAv-MB-aOQ"/>
+                                                <constraint firstItem="fNe-py-zcu" firstAttribute="top" secondItem="jjh-ih-4VI" secondAttribute="top" constant="24" id="PaC-9a-MOj"/>
+                                                <constraint firstItem="dBq-GW-X69" firstAttribute="leading" secondItem="rux-vb-0u3" secondAttribute="trailing" constant="6" id="TRA-Wc-CUI"/>
+                                                <constraint firstItem="7xo-Wj-fNe" firstAttribute="top" secondItem="rux-vb-0u3" secondAttribute="bottom" constant="12" id="ag5-ef-kw5"/>
+                                                <constraint firstAttribute="trailing" secondItem="dBq-GW-X69" secondAttribute="trailing" constant="24" id="d7J-be-14X"/>
+                                                <constraint firstItem="vaW-f3-Dj4" firstAttribute="top" secondItem="7xo-Wj-fNe" secondAttribute="top" id="e1i-b8-0Jd"/>
+                                                <constraint firstItem="fNe-py-zcu" firstAttribute="leading" secondItem="jjh-ih-4VI" secondAttribute="leading" constant="24" id="lpf-br-mq9"/>
+                                                <constraint firstAttribute="bottom" secondItem="7xo-Wj-fNe" secondAttribute="bottom" constant="24" id="nVs-Vr-bYc"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                    <integer key="value" value="16"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="notice" translatesAutoresizingMaskIntoConstraints="NO" id="svZ-3w-VUw">
+                                    <rect key="frame" x="24" y="1335.5" width="17" height="17"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="17" id="YE0-tT-cvQ"/>
+                                        <constraint firstAttribute="height" constant="17" id="xKE-PE-JID"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="상담 유의사항" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="InT-B7-fFx">
+                                    <rect key="frame" x="47" y="1335.5" width="76.5" height="17"/>
+                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="· 전화 연결 후, 50초까지는 요금이 부과되지 않아요." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eSo-wz-9fz">
+                                    <rect key="frame" x="24" y="1368.5" width="187" height="11"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W6v-Ef-9Cd" userLabel="view">
+                                    <rect key="frame" x="24" y="1319" width="366" height="1"/>
+                                    <color key="backgroundColor" red="0.87450980392156863" green="0.89803921568627454" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="3Da-Wc-Zu0"/>
+                                    </constraints>
+                                </view>
+                            </subviews>
+                            <color key="backgroundColor" red="0.95686274509803915" green="0.96862745098039216" blue="0.99607843137254903" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="svZ-3w-VUw" firstAttribute="top" secondItem="W6v-Ef-9Cd" secondAttribute="bottom" constant="15.5" id="3jo-M3-C5U"/>
+                                <constraint firstItem="W6v-Ef-9Cd" firstAttribute="top" secondItem="DbL-yb-G0R" secondAttribute="bottom" constant="39.5" id="4oR-V7-VQ7"/>
+                                <constraint firstItem="eSo-wz-9fz" firstAttribute="leading" secondItem="svZ-3w-VUw" secondAttribute="leading" id="8cK-dR-nln"/>
+                                <constraint firstItem="W6v-Ef-9Cd" firstAttribute="trailing" secondItem="DbL-yb-G0R" secondAttribute="trailing" id="C2A-yK-xPc"/>
+                                <constraint firstItem="eSo-wz-9fz" firstAttribute="top" secondItem="svZ-3w-VUw" secondAttribute="bottom" constant="16" id="LEW-ki-COR"/>
+                                <constraint firstItem="DbL-yb-G0R" firstAttribute="leading" secondItem="XM8-IH-Ldd" secondAttribute="leading" constant="24" id="LVG-6a-aA1"/>
+                                <constraint firstItem="svZ-3w-VUw" firstAttribute="leading" secondItem="W6v-Ef-9Cd" secondAttribute="leading" id="MBR-yF-lZM"/>
+                                <constraint firstItem="InT-B7-fFx" firstAttribute="leading" secondItem="svZ-3w-VUw" secondAttribute="trailing" constant="6" id="TAg-5p-Rn5"/>
+                                <constraint firstItem="InT-B7-fFx" firstAttribute="top" secondItem="svZ-3w-VUw" secondAttribute="top" id="Zyg-nH-CUX"/>
+                                <constraint firstAttribute="trailing" secondItem="DbL-yb-G0R" secondAttribute="trailing" constant="24" id="fcq-Xd-5Jr"/>
+                                <constraint firstAttribute="bottom" secondItem="eSo-wz-9fz" secondAttribute="bottom" constant="80" id="jzh-hl-NIo"/>
+                                <constraint firstItem="W6v-Ef-9Cd" firstAttribute="leading" secondItem="DbL-yb-G0R" secondAttribute="leading" id="oPp-tu-rmS"/>
+                                <constraint firstItem="DbL-yb-G0R" firstAttribute="top" secondItem="XM8-IH-Ldd" secondAttribute="top" constant="40" id="xnX-JI-6Vi"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.95686274509803915" green="0.96862745098039216" blue="0.99607843137254903" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="XM8-IH-Ldd" firstAttribute="top" secondItem="ivK-Xc-EJ3" secondAttribute="top" id="ESD-T5-2B1"/>
+                        <constraint firstItem="XM8-IH-Ldd" firstAttribute="width" secondItem="seI-Ha-CfY" secondAttribute="width" id="W7J-dN-cey"/>
+                        <constraint firstItem="XM8-IH-Ldd" firstAttribute="trailing" secondItem="ivK-Xc-EJ3" secondAttribute="trailing" id="hcn-ix-PbD"/>
+                        <constraint firstItem="XM8-IH-Ldd" firstAttribute="bottom" secondItem="ivK-Xc-EJ3" secondAttribute="bottom" id="tOB-vd-SZX"/>
+                        <constraint firstItem="XM8-IH-Ldd" firstAttribute="leading" secondItem="ivK-Xc-EJ3" secondAttribute="leading" id="xUS-cX-wo2"/>
+                    </constraints>
+                    <viewLayoutGuide key="contentLayoutGuide" id="ivK-Xc-EJ3"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="seI-Ha-CfY"/>
+                </scrollView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qqG-Wu-5Yg">
+                    <rect key="frame" x="0.0" y="44" width="414" height="56"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="previous" translatesAutoresizingMaskIntoConstraints="NO" id="QAy-Qs-c1h">
+                            <rect key="frame" x="21" y="16" width="24" height="24"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="이용안내" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wOj-OG-y5H">
+                            <rect key="frame" x="179.5" y="18.5" width="55.5" height="19.5"/>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AyF-M7-g9n">
+                            <rect key="frame" x="344" y="12.5" width="51" height="31"/>
+                            <connections>
+                                <action selector="onChangeThemeSwitch:" destination="-1" eventType="valueChanged" id="dQS-tF-LUx"/>
+                            </connections>
+                        </switch>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="56" id="7sG-f9-9Az"/>
+                        <constraint firstItem="wOj-OG-y5H" firstAttribute="centerY" secondItem="qqG-Wu-5Yg" secondAttribute="centerY" id="Lc6-zx-2x8"/>
+                        <constraint firstItem="QAy-Qs-c1h" firstAttribute="leading" secondItem="qqG-Wu-5Yg" secondAttribute="leading" constant="21" id="YL7-yz-4jV"/>
+                        <constraint firstAttribute="trailing" secondItem="AyF-M7-g9n" secondAttribute="trailing" constant="21" id="ZWc-9y-Mae"/>
+                        <constraint firstItem="AyF-M7-g9n" firstAttribute="centerY" secondItem="qqG-Wu-5Yg" secondAttribute="centerY" id="ga3-2i-V8f"/>
+                        <constraint firstItem="wOj-OG-y5H" firstAttribute="centerX" secondItem="qqG-Wu-5Yg" secondAttribute="centerX" id="i7d-Gh-2qS"/>
+                        <constraint firstItem="QAy-Qs-c1h" firstAttribute="top" secondItem="qqG-Wu-5Yg" secondAttribute="top" constant="16" id="wAD-rK-sMM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="PAu-kD-5bt" secondAttribute="trailing" id="9qR-R3-X3I"/>
+                <constraint firstAttribute="bottom" secondItem="Tpf-vT-1uH" secondAttribute="bottom" id="IFE-pc-bdm"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="PAu-kD-5bt" secondAttribute="bottom" id="JxP-Oq-leB"/>
+                <constraint firstItem="qqG-Wu-5Yg" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="QOp-Kf-7kT"/>
+                <constraint firstItem="Tpf-vT-1uH" firstAttribute="top" secondItem="qqG-Wu-5Yg" secondAttribute="bottom" id="Ust-Yy-ah5"/>
+                <constraint firstItem="qqG-Wu-5Yg" firstAttribute="top" secondItem="PAu-kD-5bt" secondAttribute="bottom" id="XWi-Ah-9vy"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="top" secondItem="PAu-kD-5bt" secondAttribute="bottom" id="cWq-7X-a7R"/>
+                <constraint firstItem="PAu-kD-5bt" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="jtj-qE-6B1"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="Tpf-vT-1uH" secondAttribute="trailing" id="oVl-6l-VwT"/>
+                <constraint firstItem="Tpf-vT-1uH" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="p8X-Vx-jZO"/>
+                <constraint firstItem="PAu-kD-5bt" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="uin-JI-5Lc"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="qqG-Wu-5Yg" secondAttribute="trailing" id="zix-ke-ihI"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="137.68115942028987" y="170.08928571428569"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="notice" width="16" height="16"/>
+        <image name="previous" width="24" height="24"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
